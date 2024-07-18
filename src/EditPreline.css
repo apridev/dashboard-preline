@@ -1,0 +1,79 @@
+.color-edit{
+  background-color: #FD8D14;
+  color: #ffffff;
+}
+.color-view{
+  background-color: #ffffff;
+  color: #090910;
+  border: 1px solid #ccc;
+}
+.color-delete{
+  background-color: #E8505B;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .custom-width {
+    display: block;
+    width: 16.5%; /* Ganti dengan lebar yang diinginkan */
+  }
+  
+}
+@media (max-width: 768px) {
+  .custom-sm{
+    max-width: 24rem;
+  }
+
+  .fixed-navbar {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(55, 55, 55, 0.1); /* Tambahkan bayangan jika diperlukan */
+  }
+
+  .content-padding{
+    padding-top: 14%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fixed-navbar {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(55, 55, 55, 0.1);
+  }
+
+  .content-padding{
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .custom-width {
+    display: block;
+    width: 20%; /* Ganti dengan lebar yang diinginkan */
+  }
+}
+
+@media (min-width: 640px) {
+  .dropdown-user {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 640px) {
+  .custom-width-dropdown {
+    display: none;
+  }
+
+  .fixed-navbar {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(55, 55, 55, 0.1);
+  }
+
+  .content-padding{
+    padding-top: 18%;
+  }
+
+  .custom-dropdown-filter{
+    margin-top: 1rem;
+  }
+}

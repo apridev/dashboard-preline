@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 1,
+        "name" : "Downshifter 13 Shoes",
+        "price" : 899000,
+        "category": "Sneakers",
+        "brand": "Nike"
+    },
+    {
+        "id" : 2,
+        "name" : "Levi's® Men's Classic Pocket Standard Fit Shirt",
+        "price" : 299000,
+        "category": "Shirts",
+        "brand": "Levi's"
+    },
+    {
+        "id" : 3,
+        "name" : "Bezima",
+        "price" : 325000,
+        "category": "Shirts",
+        "brand": "Hush Puppies"
+    },
+    {
+        "id" : 4,
+        "name" : "Questar shoes",
+        "price" : 1300000,
+        "category": "Sneakers",
+        "brand": "Adidas"
+    },
+    {
+        "id" : 5,
+        "name" : "Wide trousers",
+        "price" : 350000,
+        "category": "Shirts",
+        "brand": "H&M"
+    }
+]

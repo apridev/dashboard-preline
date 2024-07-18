@@ -1,0 +1,172 @@
+[
+  {
+    "id": 2021822,
+    "date": "Apr 2, 2024",
+    "customer": "John Doe",
+    "payment_status": {
+      "paid": false,
+      "process": true,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : true,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021981,
+    "date": "Apr 3, 2024",
+    "customer": "Stevani Stella",
+    "payment_status": {
+      "paid": true,
+      "process": false,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : true,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021941,
+    "date": "Apr 4, 2024",
+    "customer": "Boy William",
+    "payment_status": {
+      "paid": false,
+      "process": false,
+      "cancel": true
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : true
+    }
+  },
+  {
+    "id": 2021977,
+    "date": "Apr 5, 2024",
+    "customer": "Mohhamad Ali",
+    "payment_status": {
+      "paid": true,
+      "process": false,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : true,
+        "ready_to_ship" : false,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021651,
+    "date": "Apr 6, 2024",
+    "customer": "Brian Humbold",
+    "payment_status": {
+      "paid": true,
+      "process": false,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : true,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021890,
+    "date": "Apr 6, 2024",
+    "customer": "Stella Wahyuni",
+    "payment_status": {
+      "paid": false,
+      "process": true,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : true,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021431,
+    "date": "Apr 7, 2024",
+    "customer": "Yudha Gilbert",
+    "payment_status": {
+      "paid": false,
+      "process": false,
+      "cancel": true
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : true
+    }
+  },
+  {
+    "id": 2021761,
+    "date": "Apr 8, 2024",
+    "customer": "Maria Diana",
+    "payment_status": {
+      "paid": true,
+      "process": false,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : true,
+        "ready_to_ship" : false,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021081,
+    "date": "Apr 9, 2024",
+    "customer": "Steven Christian",
+    "payment_status": {
+      "paid": true,
+      "process": false,
+      "cancel": false
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : true,
+        "returned" : false
+    }
+  },
+  {
+    "id": 2021033,
+    "date": "Apr 10, 2024",
+    "customer": "Boy Lamia",
+    "payment_status": {
+      "paid": false,
+      "process": false,
+      "cancel": true
+    },
+    "order_status": {
+        "pending" : false,
+        "delivered" : false,
+        "shipped" : false,
+        "ready_to_ship" : false,
+        "returned" : true
+    }
+  }
+]
