@@ -87,7 +87,7 @@ const Product = () => {
               <input
                 type="search"
                 id="search"
-                className="flex-grow bg-transparent text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 border-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="flex-grow bg-transparent text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 border-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:border-neutral-900"
                 placeholder="Search product..."
               />
               <div className="p-2.5">

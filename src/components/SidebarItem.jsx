@@ -30,8 +30,8 @@ const SidebarItem = () => {
     >
       <div className="px-6 flex items-center">
         <a
-          className="flex-none text-xl font-semibold dark:text-white"
-          href="#"
+          className="flex-none text-xl font-semibold dark:text-white cursor-pointer"
+          onClick={() =>navigate("/dashboard")}
           aria-label="Brand"
         >
           Apridev Store
