@@ -35,12 +35,12 @@ const Product = () => {
   };
 
   // todo: Format rupiah
-  function formatRupiah(number){
+  function formatRupiah(number) {
     return new Intl.NumberFormat("id-ID", {
       style: "currency",
       currency: "IDR",
       minimumFractionDigits: 0,
-    }).format(number)
+    }).format(number);
   }
 
   return (
@@ -83,14 +83,14 @@ const Product = () => {
         </div>
         <form>
           <div className="max-w-md mt-auto">
-            <div className="relative">
+            <div className="flex items-center border border-gray-300 rounded-lg bg-gray-50 dark:bg-neutral-900 dark:border-neutral-700">
               <input
-                type="text"
+                type="search"
                 id="search"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-neutral-900 dark:border-neutral-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="flex-grow bg-transparent text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 border-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Search product..."
               />
-              <div className="absolute inset-y-0 end-0 flex items-center pe-3.5 pointer-events">
+              <div className="p-2.5">
                 <HiOutlineSearch color="gray" />
               </div>
             </div>
@@ -243,7 +243,10 @@ const Product = () => {
             className="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-sm rounded-full text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
             disabled=""
           >
-            <HiChevronLeft className="text-gray-800 dark:text-white" size="20" />
+            <HiChevronLeft
+              className="text-gray-800 dark:text-white"
+              size="20"
+            />
             <span>Previous</span>
           </button>
           <div className="flex items-center gap-x-1">
@@ -272,7 +275,10 @@ const Product = () => {
             className="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-sm rounded-full text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
           >
             <span>Next</span>
-            <HiChevronRight className="text-gray-800 dark:text-white" size="20" />
+            <HiChevronRight
+              className="text-gray-800 dark:text-white"
+              size="20"
+            />
           </button>
         </nav>
       </div>
@@ -287,7 +293,10 @@ const Product = () => {
       {/* No Data */}
       <div className="flex flex-col bg-white justify-center items-center border border-gray-200 shadow-sm rounded-xl p-4 md:p-5 dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 mt-5">
         <div className="flex flex-col items-center justify-center">
-          <BsEmojiFrown className="text-gray-400 dark:text-gray-400" size="50" />
+          <BsEmojiFrown
+            className="text-gray-400 dark:text-gray-400"
+            size="50"
+          />
           <p className="text-center mt-3 text-gray-400 text-lg dark:text-gray-400">
             You don't have product data
           </p>

@@ -45,7 +45,10 @@ const Order = () => {
             <a className="flex items-center text-sm text-gray-500 focus:outline-none focus:text-blue-600 dark:hover:text-blue-500 dark:focus:text-blue-500 mr-1 cursor-default dark:text-white">
               Order
             </a>
-            <HiChevronRight size="20" className="text-gray-500 dark:text-white" />
+            <HiChevronRight
+              size="20"
+              className="text-gray-500 dark:text-white"
+            />
           </li>
         </ol>
 
@@ -57,15 +60,15 @@ const Order = () => {
         {/* Search */}
         <div className="mt-4">
           <form>
-            <div className="md:max-w-md mt-auto sm:w-full">
-              <div className="relative">
+            <div className="max-w-md mt-auto">
+              <div className="flex items-center  border border-gray-100 rounded-lg bg-white dark:bg-neutral-900 dark:border-neutral-700">
                 <input
-                  type="text"
+                  type="search"
                   id="search"
-                  className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg dark:bg-neutral-900 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-neutral-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-  500"
-                  placeholder="Search Order..."
+                  className="flex-grow bg-transparent text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:placeholder-gray-400 border-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:border-neutral-900"
+                  placeholder="Search product..."
                 />
-                <div className="absolute inset-y-0 end-0 flex items-center pe-3.5 pointer-events">
+                <div className="p-2.5">
                   <HiOutlineSearch color="gray" />
                 </div>
               </div>
@@ -81,7 +84,9 @@ const Order = () => {
                 key={item}
                 onClick={() => setActiveItem(item)}
                 className={`px-4 py-2 rounded-xl font-normal border border-gray-30 dark:border-neutral-700  text-sm m-auto whitespace-nowrap cursor-pointer ${
-                  activeItem === item ? "bg-blue-600 text-white" : "bg-gray-100 dark:bg-neutral-900 dark:text-neutral-400"
+                  activeItem === item
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-100 dark:bg-neutral-900 dark:text-neutral-400"
                 }`}
               >
                 {item}
@@ -153,7 +158,10 @@ const Order = () => {
                   <table className="min-w-full divide-y divide-gray-200 dark:divide-neutral-700">
                     <thead className="bg-gray-50 dark:bg-neutral-780">
                       <tr>
-                        <th scope="col" className="py-3 ps-4 dark:bg-neutral-800">
+                        <th
+                          scope="col"
+                          className="py-3 ps-4 dark:bg-neutral-800"
+                        >
                           <div className="flex items-center h-5">
                             <input
                               id="hs-table-checkbox-all"
